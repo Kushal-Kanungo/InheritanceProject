@@ -1,5 +1,11 @@
 package com.payroll;
 
-public class Employee {
+abstract class Employee {
+
+  public abstract double getBasicSalary();
+
+  public abstract double getBonus();
+
+  public abstract double getCompensation();
 
 }
